@@ -60,3 +60,5 @@ koszt_podrozy = zuzycie_paliwa * cena_paliwa
 print(f"wylosowana droga: {droga} km")
 print(f"przewidywane zużycie paliwa: {zuzycie_paliwa:.2f} litrów")
 print(f"szacowany koszt podróży: {koszt_podrozy:.2f} PLN")
+
+input("\nEnter)
