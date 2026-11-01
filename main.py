@@ -51,14 +51,14 @@ print("zad 6")
 import random
 
 droga = random.randint(50, 500)
-spalanie_na_100km = float(input("podaj średnie spalanie (w l/100 km): "))
-cena_paliwa = float(input("podaj aktualną cenę paliwa za litr (zł): "))
+spalanie = float(input("podaj średnie spalanie: "))
+cena = float(input("podaj cenę paliwa: "))
 
-zuzycie_paliwa = (droga * spalanie_na_100km) / 100
-koszt_podrozy = zuzycie_paliwa * cena_paliwa
+zuzycie = (droga * spalanie) / 100
+koszt = zuzycie * cena
 
-print(f"wylosowana droga: {droga} km")
-print(f"przewidywane zużycie paliwa: {zuzycie_paliwa:.2f} litrów")
-print(f"szacowany koszt podróży: {koszt_podrozy:.2f} PLN")
+print("wylosowana droga:", droga)
+print("zużycie paliwa:", zuzycie)
+print("koszt podróży:", koszt)
 
 input("\nEnter")
