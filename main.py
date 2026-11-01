@@ -38,8 +38,8 @@ print(f"rabat: {rabat * 100}%")
 print(f"cena produktu po rabacie: {cena_po_rabacie:.2f} PLN")
 #
 print("zad 5")
-a = float(input("Podaj długość pierwszego boku prostokąta: "))
-b = float(input("Podaj długość drugiego boku prostokąta: "))
+a = float(input("podaj długość pierwszego boku prostokąta: "))
+b = float(input("podaj długość drugiego boku prostokąta: "))
 
 pole = a * b
 obwod = 2 * a + 2 * b
