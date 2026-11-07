@@ -1,5 +1,1 @@
-
-print ("zad")
-print ("a")
-
-
+print("czesc")
